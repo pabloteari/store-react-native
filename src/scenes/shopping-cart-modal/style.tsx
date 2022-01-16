@@ -4,7 +4,7 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: '#F5F5F5',
   },
+  panelButtons: {flexDirection: 'row', alignSelf: 'center'},
 });

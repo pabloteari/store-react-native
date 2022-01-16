@@ -1,16 +1,13 @@
 import React from 'react';
 
-import StackStoreFeed from '../store-feed/stack';
-import StackShoppingCart from '../shopping-cart/stack';
-import Icon from 'react-native-vector-icons/EvilIcons';
+import StackStoreFeed from '../../scenes/store-feed/stack';
+import StackShoppingCart from '../../scenes/shopping-cart-modal/stack';
 
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 const RootStack = createNativeStackNavigator();
 
 export default function StackRoot() {
-  // I need add load font to use react-native-vector-icons
-  // Icon.loadFont();
   return (
     <RootStack.Navigator>
       <RootStack.Group>

@@ -1,5 +1,5 @@
 import React from 'react';
-import StoreStack from './src/scenes/store-feed/stack';
+import RootStack from './src/navigation/root-navigator';
 
 import {StatusBar, useColorScheme} from 'react-native';
 
@@ -18,7 +18,7 @@ const App = () => {
     <>
       <StatusBar barStyle={statusBarStyle} />
       <NavigationContainer theme={theme}>
-        <StoreStack />
+        <RootStack />
       </NavigationContainer>
     </>
   );
