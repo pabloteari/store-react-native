@@ -5,7 +5,9 @@ import {useNavigation} from '@react-navigation/native';
 
 import s from './style';
 import ProductPanel from '../../components/product-panel';
+import alertDialog from '../../navigation/helpers/alerts-dialog';
 
+// using local for now, because the API is not returning an image.
 const DATA = [
   {
     id: '1',
@@ -63,13 +65,29 @@ const DATA = [
   },
 ];
 
+interface Product {
+  name: string;
+  image: string;
+  stock: number;
+  price: string;
+  createdAt: string;
+}
+
 export default function StoreFeedScene() {
   const navigation = useNavigation();
+  const goToShoppingCart = () =>
+    navigation.navigate('Shopping' as never, {} as never);
 
-  const renderItem = ({item}) => (
+  // We can use react-native-i18n, which would default the labels to this message.
+  const messageToConfirmProduct =
+    'Want to add this product to your shopping cart?';
+
+  const renderItem = ({item}: {item: Product}) => (
     <TouchableOpacity
       activeOpacity={0.8}
-      onPress={() => navigation.navigate('Shopping')}>
+      onPress={() =>
+        alertDialog(item.name, messageToConfirmProduct, goToShoppingCart)
+      }>
       <ProductPanel
         label={item.name}
         image={item.image}

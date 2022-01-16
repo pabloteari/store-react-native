@@ -1,17 +1,17 @@
 import {StyleSheet} from 'react-native';
 import {Dimensions} from 'react-native';
 
-const win = Dimensions.get('window');
-
+const {width} = Dimensions.get('window');
 export default StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
+    marginVertical: 5,
   },
   image: {
-    width: win.width,
-    height: win.width,
+    width: width,
+    height: width,
   },
   panelInfoProduct: {
     flex: 1,

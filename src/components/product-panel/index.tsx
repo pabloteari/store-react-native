@@ -13,7 +13,7 @@ export default function ProductPanel(props: any) {
 
   return (
     <View style={s.container}>
-      <Image resizeMode="contain" source={{uri: image}} style={s.image} />
+      <Image resizeMode="cover" source={{uri: image}} style={s.image} />
       <View style={s.panelInfoProduct}>
         <View style={s.panelLabel}>
           <Text style={s.label}>{props.label}</Text>
