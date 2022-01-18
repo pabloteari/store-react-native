@@ -27,7 +27,6 @@ export const productInCartSlice = createSlice({
       const index = action.payload;
 
       state[index].count += 1;
-      console.log(state[index]);
     },
 
     remove_product: (state, action: PayloadAction<number>) => {

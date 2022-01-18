@@ -10,7 +10,7 @@ import {useNavigation} from '@react-navigation/native';
 const Stack = createNativeStackNavigator();
 
 export default function StackHomeScreen() {
-  // I need add load font to use react-native-vector-icons
+  // I need add load font to use react-native-vector-icons, from what I researched, some inconsistency in the lib
   Icon.loadFont();
 
   const navigation = useNavigation();

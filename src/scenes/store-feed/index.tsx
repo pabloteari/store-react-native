@@ -46,8 +46,11 @@ export default function StoreFeedScene() {
     <TouchableOpacity
       activeOpacity={0.8}
       onPress={() =>
-        alertDialog(item.name, messageToConfirmProduct, () =>
-          addProductShoppingCart(item),
+        alertDialog(
+          item.name,
+          messageToConfirmProduct,
+          () => addProductShoppingCart(item),
+          'Add',
         )
       }>
       <ProductPanel

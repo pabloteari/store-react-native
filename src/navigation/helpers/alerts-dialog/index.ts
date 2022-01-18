@@ -4,12 +4,13 @@ export default function alertDialog(
   title: string,
   message: string,
   actionConfirm: any,
+  textAcceptButton: string,
 ): any {
   return Alert.alert(title, message, [
     {
       text: 'Cancel',
       style: 'cancel',
     },
-    {text: 'Add', onPress: actionConfirm},
+    {text: textAcceptButton, onPress: actionConfirm},
   ]);
 }
