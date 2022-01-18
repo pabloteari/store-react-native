@@ -7,20 +7,9 @@ import Icon from 'react-native-vector-icons/EvilIcons';
 
 import s from './style';
 
-interface ProductToPay {
-  name: string;
-  image: string;
-  stock: number;
-  price: string;
-  createdAt: string;
-  count: number;
-  onPressLess: any;
-  onPressMore: any;
-}
-
 // We can use react-native-i18n, which would default the labels to "left".
 // We can improve with atomic design, I didn't apply it, but I like it a lot.
-export default function ProductPanel(props: ProductToPay) {
+export default function ProductPanel(props: any) {
   const salesCountLabel = 'left';
   const image = props.image;
 

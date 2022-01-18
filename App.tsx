@@ -1,6 +1,8 @@
 import React from 'react';
 import RootStack from './src/navigation/root-navigator';
 
+import {store} from './src/states/store';
+import {Provider} from 'react-redux';
 import {StatusBar, useColorScheme} from 'react-native';
 
 import {
@@ -15,12 +17,12 @@ const App = () => {
   const statusBarStyle = isDarkMode ? 'light-content' : 'dark-content';
 
   return (
-    <>
+    <Provider store={store}>
       <StatusBar barStyle={statusBarStyle} />
       <NavigationContainer theme={theme}>
         <RootStack />
       </NavigationContainer>
-    </>
+    </Provider>
   );
 };
 
