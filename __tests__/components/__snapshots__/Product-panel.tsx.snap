@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders tree correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginVertical": 5,
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "image",
+      }
+    }
+    style={
+      Object {
+        "height": 750,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 20,
+          }
+        }
+      >
+        name
+      </Text>
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        Invalid date
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        price
+      </Text>
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        left
+         
+        0
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders tree product correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginVertical": 5,
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "image",
+      }
+    }
+    style={
+      Object {
+        "height": 750,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 20,
+          }
+        }
+      >
+        name
+      </Text>
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        Invalid date
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        price
+      </Text>
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        left
+         
+        0
+      </Text>
+    </View>
+  </View>
+</View>
+`;

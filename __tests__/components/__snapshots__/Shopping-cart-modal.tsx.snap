@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders tree correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 10,
+        "marginBottom": 5,
+      },
+      Object {
+        "elevation": 2,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 1.41,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginVertical": 10,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 10,
+          "height": 50,
+          "marginLeft": 10,
+          "width": 50,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 15,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        34 minutes ago
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        left
+         
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <EvilIcons
+        color="red"
+        name="minus"
+        size={30}
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "flexDirection": "row",
+          "fontSize": 25,
+          "margin": 5,
+          "marginHorizontal": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <EvilIcons
+        color="green"
+        name="plus"
+        size={30}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders tree shopping correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 10,
+        "marginBottom": 5,
+      },
+      Object {
+        "elevation": 2,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 1.41,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginVertical": 10,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 10,
+          "height": 50,
+          "marginLeft": 10,
+          "width": 50,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 15,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        37 minutes ago
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "flexDirection": "row",
+            "fontSize": 10,
+          }
+        }
+      >
+        left
+         
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <EvilIcons
+        color="red"
+        name="minus"
+        size={30}
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "flexDirection": "row",
+          "fontSize": 25,
+          "margin": 5,
+          "marginHorizontal": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <EvilIcons
+        color="green"
+        name="plus"
+        size={30}
+      />
+    </View>
+  </View>
+</View>
+`;
